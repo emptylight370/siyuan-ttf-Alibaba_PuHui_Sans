@@ -2,30 +2,34 @@ name: Create Release on Tag Push
 
 on:
   push:
-    tags:
-      - "v*"
+    paths: 'plugin.json'
+  workflow_dispatch:
 
 jobs:
-  build:
+  package:
     runs-on: ubuntu-latest
+
+    premissions:
+      contents: write
+      packages: write
+
     steps:
-      # Checkout
-      - name: Checkout
-        uses: actions/checkout@v3
+      # checkout
+      - uses: actions/checkout@v4
 
-      - name: Package zip
-        uses: vimtor/action-zip@v1
-        with:
-          files: icon.png index.css index.js plugin.json preview.png README.md README_zh_CN.md HarmonyOS_Sans_SC_Regular.woff Twemoji-15.1.0.ttf
-          dest: package.zip
-          
+      - name: Package
+        run: find ./ -name 'icon.png' -o -name 'index.css' -o -name 'index.js' -o -name 'plugin.json' -o -name 'preview.png' -o -name 'README.md' -o -name 'README_zh_CN.md' -o -name 'AlibabaPuHuiTi-3-65-Medium.woff' | xargs zip package.zip
 
+      - name: Install requirements
+        run: sudo apt-get install jq
+
+      - name: Create tag
+        run: echo "VERSION~$(jq -r ".version" plugin.json)" >> $GITHUB_ENV
+      
       - name: Release
-        uses: ncipollo/release-action@v1
+        uses: softprops/action-gh-release@v2
         with:
-          allowUpdates: true
-          artifactErrorsFailBuild: true
-          artifacts: "package.zip"
-          token: ${{ secrets.GITHUB_TOKEN }}
-          prerelease: true
-          makeLatest: false
+          files: package.zip
+          name: Release ${{ env.VERSION }}
+          tag_name: ${{ env.VERSION }}
+          make_latest: true
