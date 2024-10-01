@@ -9,7 +9,7 @@ jobs:
   package:
     runs-on: ubuntu-latest
 
-    premissions:
+    permissions:
       contents: write
       packages: write
 
