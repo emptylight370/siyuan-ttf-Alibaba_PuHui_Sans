@@ -1,1 +1,1 @@
-module.exports = class TwitterEmoji extends require('siyuan').Plugin {};
+module.exports = class AlibabaPuHuiSans extends require('siyuan').Plugin { };

@@ -1,19 +1,34 @@
 @font-face {
-    font-family: "HarmonyOS Sans SC";
-    font-style: normal;
-    src: url("../plugins/siyuan-ttf-HarmonyOS_Sans_SC-and-Twemoji/HarmonyOS_Sans_SC_Regular.woff") format("woff");
+    font-family: "AlibabaPuHuiTi";
+        font-weight: 300;
+        src: url("../siyuan-ttf-Alibaba_PuHui_Sans/fonts/AlibabaPuHuiTi-3-45-Light.woff") format("woff");
 }
 
 @font-face {
-    font-family: 'Twitter Emoji';
-    font-style: normal;
+    font-family: "AlibabaPuHuiTi";
     font-weight: 400;
-    font-display: swap;
-    src: url("../plugins/siyuan-ttf-HarmonyOS_Sans_SC-and-Twemoji/Twemoji-15.1.0.ttf");
+    src: url("../siyuan-ttf-Alibaba_PuHui_Sans/fonts/AlibabaPuHuiTi-3-55-Regular.woff") format("woff");
+    }
+    
+    
+    @font-face {
+        font-family: "AlibabaPuHuiTi";
+        font-weight: 500;
+        src: url("../siyuan-ttf-Alibaba_PuHui_Sans/fonts/AlibabaPuHuiTi-3-65-Medium.woff") format("woff");
+    }
+    
+    @font-face {
+        font-family: "AlibabaPuHuiTi";
+        font-weight: 700;
+        src: url("../siyuan-ttf-Alibaba_PuHui_Sans/fonts/AlibabaPuHuiTi-3-85-Bold.woff") format("woff");
+    }
+    
+    @font-face {
+        font-family: "AlibabaPuHuiTi";
+        font-weight: 950;
+        src: url("../siyuan-ttf-Alibaba_PuHui_Sans/fonts/AlibabaPuHuiTi-3-115-Black.woff") format("woff");
 }
 
 :root {
-    --b3-font-family: "HarmonyOS Sans SC", apple-system, BlinkMacSystemFont,"Helvetica Neue", "Luxi Sans", "DejaVu Sans", "Hiragino Sans GB", "Microsoft Yahei", sans-serif, "Twitter Emoji", "Noto Color Emoji", "OpenMoji", "Apple Color Emoji", "Noto Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Android Emoji", "EmojiSymbols" !important;
-    --b3-font-family-code: "JetBrainsMono-Regular", mononoki, Consolas, "Liberation Mono", Menlo, Courier, monospace, var(--b3-font-family), var(--b3-font-family-emoji) !important;
-    --b3-font-family-emoji: 'Twitter Emoji', "Segoe UI Emoji", "Segoe UI Symbol", "Segoe UI", "Apple Color Emoji", "Twemoji Mozilla", "Noto Color Emoji", "Android Emoji" !important;
+    --b3-font-family: "AlibabaPuHuiTi", "Helvetica Neue", "Luxi Sans", "DejaVu Sans", "Hiragino Sans GB", "Segoe UI", "Microsoft Yahei", sans-serif, "Apple Color Emoji", "Noto Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Android Emoji", "EmojiSymbols" !important;
 }

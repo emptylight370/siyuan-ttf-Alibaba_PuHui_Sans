@@ -1,8 +1,8 @@
 {
-  "name": "siyuan-ttf-HarmonyOS_Sans_SC-and-Twemoji",
-  "author": "TCOTC",
-  "url": "https://github.com/TCOTC/siyuan-ttf-HarmonyOS_Sans_SC-and-Twemoji",
-  "version": "0.2.6",
+  "name": "siyuan-ttf-AlibabaPuHui",
+  "author": "Emptylight",
+  "url": "https://github.com/lingfengyu-dreaming/siyuan-ttf-Alibaba_PuHui_Sans",
+  "version": "0.0.1",
   "backends": [
     "all"
   ],
@@ -10,12 +10,12 @@
     "all"
   ],
   "displayName": {
-    "default": "HarmonyOS Sans font and Twitter Emoji",
-    "zh_CN": "鸿蒙字体和 Twitter Emoji"
+    "default": "Alibaba PuHui Sans font",
+    "zh_CN": "阿里巴巴普惠体"
   },
   "description": {
-    "default": "HarmonyOS Sans SC (font) & Twemoji (Twitter Emoji)",
-    "zh_CN": "HarmonyOS Sans SC (鸿蒙字体) & Twemoji (Twitter Emoji)"
+    "default": "Alibaba PuHui Sans (font)",
+    "zh_CN": "阿里巴巴普惠体"
   },
   "readme": {
     "default": "README.md",
@@ -26,28 +26,17 @@
     "patreon": "",
     "github": "",
     "custom": [
-      "https://afdian.com/a/JeffreyChen"
+      "https://afdian.com/a/tingyuting"
     ]
   },
   "keywords": [
     "font",
     "字体",
     "字",
-    "Harmony",
-    "HarmonyOS",
-    "鸿蒙",
-    "HarmonyOS_Sans_SC",
-    "font",
-    "Twitter",
-    "siyuan-ttf-HarmonyOS_Sans_SC-and-Twemoji",
-    "Twemoji",
-    "Emoji",
-    "emoji",
-    "表情包",
-    "表情",
-    "符号",
-    "图标",
-    "icon",
-    "TCOTC"
+    "Alibaba",
+    "PuHui",
+    "阿里巴巴",
+    "阿里巴巴普惠体",
+    "font"
   ]
 }
