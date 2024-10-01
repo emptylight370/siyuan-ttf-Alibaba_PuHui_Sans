@@ -1,8 +1,8 @@
 {
-  "name": "siyuan-ttf-AlibabaPuHui",
+  "name": "siyuan-ttf-Alibaba_PuHui_Sans",
   "author": "Emptylight",
   "url": "https://github.com/lingfengyu-dreaming/siyuan-ttf-Alibaba_PuHui_Sans",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "backends": [
     "all"
   ],
