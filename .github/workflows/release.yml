@@ -7,7 +7,7 @@ on:
 
 jobs:
   package:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
 
     permissions:
       contents: write
@@ -24,7 +24,7 @@ jobs:
         run: sudo apt-get install jq
 
       - name: Create tag
-        run: echo "VERSION~$(jq -r ".version" plugin.json)" >> $GITHUB_ENV
+        run: echo "VERSION=$(jq -r ".version" plugin.json)" >> $GITHUB_ENV
       
       - name: Release
         uses: softprops/action-gh-release@v2
