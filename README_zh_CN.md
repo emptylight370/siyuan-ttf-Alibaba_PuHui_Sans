@@ -2,12 +2,16 @@
 
 字体文件来自：[阿里巴巴普惠体](https://www.alibabafonts.com/#/font)，自带 .woff 格式
 
-### 注意
+## 注意
 
 本插件可能与集市中的其他字体或 Emoji 插件不兼容，使用本插件时请禁用其他字体或 Emoji 插件。
 
-安装大小：25MB
+安装大小：17MB
 
-### 鸣谢
+## 更新日志
+
+- 2024-11-08 删除不需要的字重，修改代码块中文字体
+
+## 鸣谢
 
 模板仓库：[TCOTC/siyuan-ttf-HarmonyOS_Sans_SC-and-Twemoji](https://github.com/TCOTC/siyuan-ttf-HarmonyOS_Sans_SC-and-Twemoji)
