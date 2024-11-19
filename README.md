@@ -10,6 +10,7 @@ Installed space: 17MB
 
 ## ChangeLog
 
+- 2024-11-19 Edit repo link, maybe you should reinstall
 - 2024-11-08 Remove unused font weight, change Simplified Chinese font in code block
 
 ## Acknowledgments
