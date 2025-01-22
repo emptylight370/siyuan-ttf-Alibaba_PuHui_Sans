@@ -28,3 +28,7 @@
 :root:lang(ja_JP) {
     --b3-font-family: "Emojis Additional", "Emojis Reset", "AlibabaPuHuiTi", BlinkMacSystemFont, Helvetica, "Luxi Sans", "DejaVu Sans", "Hiragino Sans", "Yu Gothic UI", arial, sans-serif, emojis;
 }
+
+:root {
+    --b3-font-family: "Emojis Additional", "Emojis Reset", "AlibabaPuHuiTi", BlinkMacSystemFont, Helvetica, "Luxi Sans", "DejaVu Sans", "Hiragino Sans", arial, sans-serif, emojis;
+}
