@@ -7,7 +7,8 @@ on:
 
 jobs:
   package:
-    runs-on: ubuntu-20.04
+    if: ${{ !contains(github.event.head_commit.message, '[skip-ci]') }}
+    runs-on: ubuntu-latest
 
     permissions:
       contents: write
@@ -18,7 +19,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Package
-        run: find ./ -name 'icon.png' -o -name 'index.css' -o -name 'index.js' -o -name 'plugin.json' -o -name 'preview.png' -o -name 'README.md' -o -name 'README_zh_CN.md' -o -path './fonts/*' | xargs zip package.zip
+        run: find ./ -name 'icon.png' -o -name 'index.css' -o -name 'style.css' -o -name 'index.js' -o -name 'plugin.json' -o -name 'preview.png' -o -name 'README.md' -o -name 'README_zh_CN.md' -o -path './fonts/*' | xargs zip package.zip
 
       - name: Install requirements
         run: sudo apt-get install jq
