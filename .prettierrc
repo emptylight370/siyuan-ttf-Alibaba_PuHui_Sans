@@ -1,0 +1,13 @@
+{
+  "printWidth": 180,
+  "singleQuote": true,
+  "overrides": [
+    {
+      "files": ["*.css"],
+      "options": {
+        "tabWidth": 4,
+        "printWidth": 512
+      }
+    }
+  ]
+}

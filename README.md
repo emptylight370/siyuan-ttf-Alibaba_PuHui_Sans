@@ -6,10 +6,13 @@ The font files comes from: [阿里巴巴普惠体](https://www.alibabafonts.com/
 
 This plugin may not be compatible with other fonts or Emoji plugins in the bazaar, please disable other fonts or Emoji plugins when using this plugin.
 
-Installed space: 37MB
+Installed space: 24MB
 
 ## ChangeLog
 
+- 2025-08-20
+  - Fix issue that text disappear in exported image since SiYuan 3.1.25
+  - Remove some font file, unify the font size
 - 2025-02-17
   - Recovery font after disabled the plguin
   - Add Traditional Chinese(TC) font and Japanese(JP) font
