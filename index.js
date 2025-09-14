@@ -101,7 +101,7 @@ module.exports = class AlibabaPuHuiSans extends require('siyuan').Plugin {
 
     fetchFontFace();
     // 启用插件时可能正在导出图片，预先处理
-    if (document.querySelector('.b3-dislog--open[data-key="dialog-exportimage"]')) {
+    if (document.querySelector('.b3-dialog--open[data-key="dialog-exportimage"]')) {
       if (isMobile()) {
         fetchStyle();
         return;
