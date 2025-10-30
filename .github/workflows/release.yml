@@ -1,4 +1,4 @@
-name: Create Release on Tag Push
+name: Create Release on Push Package.json
 
 on:
   push:
@@ -15,10 +15,10 @@ jobs:
 
     steps:
       # checkout
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - name: Package
-        run: find ./ -name 'icon.png' -o -name 'index.css' -o -name 'style.css' -o -name 'font-face.css' -o -name 'index.js' -o -name 'plugin.json' -o -name 'preview.png' -o -name 'README.md' -o -name 'README_zh_CN.md' -o -path './fonts/*' | xargs zip package.zip
+        run: zip -r package.zip . -i 'index.*' 'style.css' 'font-face.css' 'icon.png' 'preview.png' 'plugin.json' 'README*.md' 'fonts/*'
 
       - name: Get version
         uses: sergeysova/jq-action@v2

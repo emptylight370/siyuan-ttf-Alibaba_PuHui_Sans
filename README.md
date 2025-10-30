@@ -10,6 +10,7 @@ Installed space: 24MB
 
 ## ChangeLog
 
+- 2025-10-30 Correct a typing error
 - 2025-08-20
   - Fix issue that text disappear in exported image since SiYuan 3.1.25
   - Remove some font file, unify the font size
