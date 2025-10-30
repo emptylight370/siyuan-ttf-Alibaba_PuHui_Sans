@@ -1,4 +1,8 @@
-/* 微软字体斜体会被相邻背景遮挡，将 arial 放置其前 https://github.com/siyuan-note/siyuan/issues/11841；"Segoe UI" 和 Noto-COLRv1-2.047 冲突，故移除。 */
+/* 2025/10/30 跟进官方自带 --b3-font-family 变量，去掉一些字体 */
+:root {
+    --b3-font-family: 'AlibabaPuHuiTiSC', 'Emojis Additional', 'Emojis Reset', BlinkMacSystemFont, Helvetica, 'Luxi Sans', 'DejaVu Sans', arial, sans-serif, emojis !important;
+}
+
 :root:lang(zh_CN) {
     --b3-font-family: 'AlibabaPuHuiTiSC', 'Emojis Additional', 'Emojis Reset', BlinkMacSystemFont, Helvetica, 'PingFang SC', 'Luxi Sans', 'DejaVu Sans', 'Hiragino Sans GB', 'Source Han Sans SC', arial, 'Microsoft Yahei', sans-serif, emojis !important;
 }
@@ -8,9 +12,5 @@
 }
 
 :root:lang(ja_JP) {
-    --b3-font-family: 'AlibabaPuHuiTiJP', 'AlibabaPuHuiTiSC', 'Emojis Additional', 'Emojis Reset', BlinkMacSystemFont, Helvetica, 'Luxi Sans', 'DejaVu Sans', 'Hiragino Sans', 'Yu Gothic UI', arial, sans-serif, emojis !important;
-}
-
-:root {
-    --b3-font-family: 'AlibabaPuHuiTiSC', 'Emojis Additional', 'Emojis Reset', BlinkMacSystemFont, Helvetica, 'Luxi Sans', 'DejaVu Sans', 'Hiragino Sans', arial, sans-serif, emojis !important;
+    --b3-font-family: 'AlibabaPuHuiTiJP', 'AlibabaPuHuiTiSC', 'Emojis Additional', 'Emojis Reset', BlinkMacSystemFont, Helvetica, 'Luxi Sans', 'DejaVu Sans', 'Yu Gothic UI', arial, sans-serif, emojis !important;
 }

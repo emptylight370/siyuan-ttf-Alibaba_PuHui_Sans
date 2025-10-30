@@ -1,35 +1,50 @@
+/* 简体中文 */
 @font-face {
     font-family: 'AlibabaPuHuiTiSC';
     font-weight: 400;
     src: url('../plugins/siyuan-ttf-Alibaba_PuHui_Sans/fonts/AlibabaPuHuiTi-3-55-Regular.woff') format('woff');
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
     font-family: 'AlibabaPuHuiTiSC';
     font-weight: 700;
     src: url('../plugins/siyuan-ttf-Alibaba_PuHui_Sans/fonts/AlibabaPuHuiTi-3-85-Bold.woff') format('woff');
+    font-style: normal;
+    font-display: swap;
 }
 
+/* 繁体中文 */
 @font-face {
     font-family: 'AlibabaPuHuiTiTC';
     font-weight: 400;
     src: url('../plugins/siyuan-ttf-Alibaba_PuHui_Sans/fonts/AlibabaSansTC-55.woff') format('woff');
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
     font-family: 'AlibabaPuHuiTiTC';
     font-weight: 700;
     src: url('../plugins/siyuan-ttf-Alibaba_PuHui_Sans/fonts/AlibabaSansTC-75.woff') format('woff');
+    font-style: normal;
+    font-display: swap;
 }
 
+/* 日语 */
 @font-face {
     font-family: 'AlibabaPuHuiTiJP';
     font-weight: 400;
     src: url('../plugins/siyuan-ttf-Alibaba_PuHui_Sans/fonts/AlibabaSansJP-Regular.woff') format('woff');
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
     font-family: 'AlibabaPuHuiTiJP';
     font-weight: 700;
     src: url('../plugins/siyuan-ttf-Alibaba_PuHui_Sans/fonts/AlibabaSansJP-Bold.woff') format('woff');
+    font-style: normal;
+    font-display: swap;
 }
