@@ -3,12 +3,9 @@
   "author": "Emptylight",
   "url": "https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans",
   "version": "0.5.0",
-  "backends": [
-    "all"
-  ],
-  "frontends": [
-    "all"
-  ],
+  "backends": ["all"],
+  "frontends": ["all"],
+  "disabledInPublish": false,
   "displayName": {
     "default": "Alibaba PuHui Sans font",
     "zh_CN": "阿里巴巴普惠体"
@@ -25,20 +22,7 @@
     "openCollective": "",
     "patreon": "",
     "github": "",
-    "custom": [
-      "https://afdian.com/a/tingyuting"
-    ]
+    "custom": ["https://afdian.com/a/tingyuting"]
   },
-  "keywords": [
-    "font",
-    "字体",
-    "字",
-    "Alibaba",
-    "PuHui",
-    "阿里巴巴",
-    "普惠体",
-    "中文字体",
-    "English Font",
-    "Japanese Font"
-  ]
+  "keywords": ["font", "字体", "字", "Alibaba", "PuHui", "阿里巴巴", "普惠体", "中文字体", "English Font", "Japanese Font"]
 }
