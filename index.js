@@ -32,6 +32,7 @@ module.exports = class AlibabaPuHuiSans extends require('siyuan').Plugin {
         })
         .then((cssText) => {
           fontFace.textContent = cssText;
+          console.log(`${pluginName}: Load successful.`);
         })
         .catch((error) => {
           console.error(`${pluginName}: Error loading CSS:`, error);
@@ -55,7 +56,7 @@ module.exports = class AlibabaPuHuiSans extends require('siyuan').Plugin {
       await fetch('../plugins/siyuan-ttf-Alibaba_PuHui_Sans/style.css')
         .then((response) => {
           if (!response.ok) {
-            throw new Error(`${pluginName}: Failed to load CSS file`);
+            throw new Error(`${pluginName}: Failed to load CSS file.`);
           }
           return response.text();
         })
@@ -97,6 +98,8 @@ module.exports = class AlibabaPuHuiSans extends require('siyuan').Plugin {
         .catch((error) => {
           console.error(`${pluginName}: Error loading CSS:`, error);
         });
+
+      document.querySelector('#snippetCSS-PuHuiSans')?.remove();
     };
 
     fetchFontFace();
@@ -111,34 +114,40 @@ module.exports = class AlibabaPuHuiSans extends require('siyuan').Plugin {
       fetchStyle();
     }
 
-    // 监听 body 元素的直接子元素变化
-    bodyObserver = new MutationObserver((mutationsList) => {
-      mutationsList.forEach((mutation) => {
-        mutation.addedNodes.forEach((node) => {
-          if (node.nodeType === Node.ELEMENT_NODE) {
-            setTimeout(() => {
-              //  弹出导出图片窗口
-              if (node.classList.contains('b3-dialog--open') && node.dataset.key === 'dialog-exportimage') {
-                fetchStyleForExportImage();
-              }
-            });
-          }
-        });
+    // 功能：监听 body 元素的子元素增删
+    (async () => {
+      if (isMobile()) return;
 
-        // 处理移除的节点
-        mutation.removedNodes.forEach((node) => {
-          if (node.nodeType === Node.ELEMENT_NODE) {
-            // 关闭导出图片窗口
-            if (node.classList.contains('b3-dialog--open') && node.dataset.key === 'dialog-exportimage') {
-              fetchStyle();
+      // 监听 body 元素的直接子元素变化
+      bodyObserver = new MutationObserver((mutationsList) => {
+        mutationsList.forEach((mutation) => {
+          // 处理添加的节点
+          mutation.addedNodes.forEach((node) => {
+            if (node.nodeType === Node.ELEMENT_NODE) {
+              setTimeout(() => {
+                //  弹出导出图片窗口
+                if (node.classList.contains('b3-dialog--open') && node.dataset.key === 'dialog-exportimage') {
+                  fetchStyleForExportImage();
+                }
+              });
             }
-          }
+          });
+
+          // 处理移除的节点
+          mutation.removedNodes.forEach((node) => {
+            if (node.nodeType === Node.ELEMENT_NODE) {
+              // 关闭导出图片窗口
+              if (node.classList.contains('b3-dialog--open') && node.dataset.key === 'dialog-exportimage') {
+                fetchStyle();
+              }
+            }
+          });
         });
       });
 
       // 观察 body 元素子节点的变化
       bodyObserver.observe(document.body, { childList: true });
-    });
+    })();
   }
 
   onunload() {
@@ -162,7 +171,7 @@ module.exports = class AlibabaPuHuiSans extends require('siyuan').Plugin {
 
   uninstall() {
     // 移除监听器
-    bodyObserver.disconnect();
+    bodyObserver?.disconnect();
 
     // 在卸载时也移除 style 元素
     const styleElement = document.getElementById('snippetCSS-PuHuiSans') || document.getElementById('snippetCSS-PuHuiSans-Image');
