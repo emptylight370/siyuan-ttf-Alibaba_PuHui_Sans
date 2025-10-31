@@ -6,8 +6,6 @@ The font files comes from: [阿里巴巴普惠体](https://www.alibabafonts.com/
 
 This plugin may not be compatible with other fonts or Emoji plugins in the bazaar, please disable other fonts or Emoji plugins when using this plugin.
 
-Installed space: 24MB
-
 ## ChangeLog
 
 - 2025-10-30 Correct a typing error
