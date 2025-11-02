@@ -2,7 +2,7 @@
   "name": "siyuan-ttf-Alibaba_PuHui_Sans",
   "author": "Emptylight",
   "url": "https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans",
-  "version": "0.6.2",
+  "version": "0.6.1",
   "backends": ["all"],
   "frontends": ["all"],
   "disabledInPublish": false,

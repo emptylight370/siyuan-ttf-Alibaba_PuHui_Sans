@@ -26,7 +26,7 @@ module.exports = class AlibabaPuHuiSans extends require('siyuan').Plugin {
         }, 0);
       })
       .catch((error) => {
-        console.error(`${this.pluginName}: load error.\n${error}`);
+        console.error(`${this.pluginName}: load error.` + error);
       });
   }
 
