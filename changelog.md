@@ -1,3 +1,26 @@
+## [0.6.2](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/compare/0.6.1...0.6.2) (2025-11-02)
+
+### ✨ Features | 功能
+
+- 跟进上游修改加载字体方式 ([040549e](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/040549e3277aae7c58c175354145902678710afe))
+
+### 📄 Documentation | 文档
+
+- 去掉安装大小 ([2c2f07f](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/2c2f07fcbf28a54c53b3dfa5131f71650a88f34f))
+- 生成提交日志 ([678677a](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/678677a51b5a018619d7d60080984a02c9da9290))
+
+### ⏪ Reverts | 回退
+
+- **[skip ci]:** 取消发布版本，这个版本是误操作 ([d067bb8](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/d067bb89f2469b67078805afb15401432ca15ab4))
+
+### #️⃣ Version Update | 版本发布
+
+- **version:** Release 0.6.2 ([de166e5](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/de166e51f58907f9c2e474d707a6a4d651017578))
+
+### 🛠️ Build system | 构建系统
+
+- 修改提交日志格式定义文件 ([cbc590e](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/cbc590ec1662810a0f3557615bca89a55b995e93))
+
 ## [0.6.1](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/compare/0.6.0...0.6.1) (2025-10-30)
 
 ## [0.6.0](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/compare/0.5.0...0.6.0) (2025-10-30)
