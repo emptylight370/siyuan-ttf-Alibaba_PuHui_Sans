@@ -1,3 +1,17 @@
+## [0.6.3](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/compare/0.6.2...0.6.3) (2025-11-13)
+
+### 📄 Documentation | 文档
+
+- 添加更新日志 ([09f4818](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/09f4818264d5c1bfcfb7246394d68e1dbe913f84))
+
+### ⚡ Performance | 性能优化
+
+- Compress images to fit the requirement ([890338f](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/890338f87d319fde0b97f798010b6707c71912fc))
+
+### 🛠️ Build system | 构建系统
+
+- 日志中不包含发版提交 ([c7f5653](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/c7f56535c9278333e91876b02da8b5633ca6b73d))
+
 ## [0.6.2](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/compare/0.6.1...0.6.2) (2025-11-02)
 
 ### ✨ Features | 功能
