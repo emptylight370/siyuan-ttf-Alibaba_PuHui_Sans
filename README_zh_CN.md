@@ -10,6 +10,7 @@
 
 ## [更新日志](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/blob/main/changelog.md)
 
+- 2025-11-14 添加拉丁文字体，修改字体回退逻辑
 - 2025-11-14 压缩图片大小
 - 2025-11-02 修改加载方式
 - 2025-10-30 修正笔误
