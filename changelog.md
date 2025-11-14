@@ -1,3 +1,9 @@
+## [0.7.0](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/compare/0.6.3...0.7.0) (2025-11-14)
+
+### ✨ Features | 功能
+
+- 添加拉丁文字体，修改字体回退逻辑 ([8684bd1](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/8684bd1e318e0f9d6a52743639bf9a8bda7e7796))
+
 ## [0.6.3](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/compare/0.6.2...0.6.3) (2025-11-13)
 
 ### 📄 Documentation | 文档
