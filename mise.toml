@@ -1,6 +1,6 @@
 [tools]
+lefthook = "latest"
 "npm:conventional-changelog-cli" = "latest"
-"npm:lefthook" = "latest"
 "npm:prettier" = "latest"
 
 [tasks.changelog]
