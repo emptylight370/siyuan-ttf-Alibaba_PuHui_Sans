@@ -5,8 +5,15 @@ pre-commit:
         # 仅在提交了plguin.json时执行
         - run: test $(git diff --name-only --cached | grep -c 'plugin\.json') -eq 0
       run: mise run changelog
-      staged_fixed: true
       fail_text: '请检查mise是否正常初始化'
+
+    - name: Format code
+      skip:
+        # 在需要进行格式化时执行
+        - run: git diff --name-only --cached | xargs prettier -c
+      run: prettier -w {staged_files}
+      stage_fixed: true
+      fail_text: '请检查prettier安装状态，运行mise install安装依赖'
 
 commit-msg:
   jobs:

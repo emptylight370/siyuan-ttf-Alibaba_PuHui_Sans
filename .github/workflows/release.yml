@@ -26,6 +26,11 @@ jobs:
         with:
           cmd: 'jq -r ".version" plugin.json'
 
+      - name: Generate release description
+        run: |
+          conventional-changelog -i release.md -s -n conventional-changelog.config.json -k plugin.json -c plugin.json
+          prettier -w release.md
+
       - name: Release
         uses: softprops/action-gh-release@v2
         with:
@@ -33,3 +38,4 @@ jobs:
           name: Release ${{ steps.version.outputs.value }}
           tag_name: ${{ steps.version.outputs.value }}
           make_latest: true
+          body_path: release.md
