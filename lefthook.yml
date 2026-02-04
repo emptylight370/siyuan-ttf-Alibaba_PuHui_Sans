@@ -10,9 +10,14 @@ pre-commit:
     - name: Format code
       skip:
         # 在需要进行格式化时执行
-        - run: git diff --name-only --cached | xargs prettier -c
+        - run: git diff --name-only --cached -- '*.md' '*.json' '*.css' '*.js' | xargs prettier -c
       run: prettier -w {staged_files}
       stage_fixed: true
+      glob:
+        - '*.md'
+        - '*.json'
+        - '*.js'
+        - '*.css'
       fail_text: '请检查prettier安装状态，运行mise install安装依赖'
 
 commit-msg:
