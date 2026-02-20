@@ -1,4 +1,5 @@
 [tools]
+bun = "latest"
 lefthook = "latest"
 "npm:conventional-changelog-cli" = "latest"
 "prettier" = "latest"
@@ -10,3 +11,6 @@ run = [
   "prettier -w changelog.md",
   "git add changelog.md",
 ]
+
+[settings]
+npm.package_manager = "bun"
