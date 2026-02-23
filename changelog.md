@@ -1,3 +1,20 @@
+## [0.7.1](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/compare/0.7.0...0.7.1) (2026-02-23)
+
+### ✨ Features | 功能
+
+- 更新赞助链接[skip ci] ([f8b8fb8](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/f8b8fb887c73d520895795d4a8f11c9aae4b6e15))
+
+### 🛠️ Build system | 构建系统
+
+- 迁移到mise进行管理 ([f28f640](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/f28f640b4455282b92b4b48131e1e5e9421c7cb2))
+- 添加lefthook ([9876d3e](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/9876d3ed35981e0f0b9be90220f2aeb08f4b8956))
+- 优化构建步骤 ([587fda9](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/587fda9bebbb2389f4bf639bac35eac64ea956fe))
+- **actions:** 更新actions工作流 ([13b487e](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/13b487eba36fcb28e470328c272524609b79d8f4))
+- **lefthook:** 并行执行检查缩短处理时间 ([dafac26](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/dafac26ad6871916be7b25b00ffa5eadf26b57cd))
+- **lefthook:** 修改触发条件 ([248ba79](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/248ba79c268de0a19042aa24b70e69d5996792ec))
+- **Lefthook:** 在检查commit message时不区分大小写 ([d4722df](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/d4722dfdc6efd3de4bd7e2378836101d650288e6))
+- **lefthook:** 重置格式化文件的逻辑 ([f40b646](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/f40b646f80ed044b39c969a70a92ad5653a04b8e))
+
 ## [0.7.0](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/compare/0.6.3...0.7.0) (2025-11-14)
 
 ### ✨ Features | 功能

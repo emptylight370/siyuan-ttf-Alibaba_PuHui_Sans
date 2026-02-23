@@ -10,6 +10,7 @@ Since SiYuan note version 3.1.25, there's a problem makes texts can't load when 
 
 ## [ChangeLog](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/blob/main/changelog.md)
 
+- 2026-02-23 Update sponsorship link
 - 2025-11-14 Add latin sans, edit fallback font
 - 2025-11-14 Compress image size
 - 2025-11-02 Change load method
