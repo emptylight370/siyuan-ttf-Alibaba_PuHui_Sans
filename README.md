@@ -21,3 +21,5 @@ Since SiYuan note version 3.1.25, there's a problem makes texts can't load when 
 ## Acknowledgments
 
 Template repo：[TCOTC/siyuan-ttf-HarmonyOS_Sans_SC-and-Twemoji](https://github.com/TCOTC/siyuan-ttf-HarmonyOS_Sans_SC-and-Twemoji)
+
+Support development: [Link](https://emptylight370.github.io/sponsor)

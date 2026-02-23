@@ -21,3 +21,5 @@
 ## 鸣谢
 
 模板仓库：[TCOTC/siyuan-ttf-HarmonyOS_Sans_SC-and-Twemoji](https://github.com/TCOTC/siyuan-ttf-HarmonyOS_Sans_SC-and-Twemoji)
+
+支持开发：[链接](https://blog.emptylight.cn/sponsor)
