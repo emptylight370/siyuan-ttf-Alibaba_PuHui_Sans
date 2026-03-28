@@ -24,13 +24,13 @@ jobs:
           fetch-tags: true
 
       - name: Setup mise
-        uses: jdx/mise-action@v3
+        uses: jdx/mise-action@v4
 
       - name: Package
         run: zip -r package.zip . -i 'index.*' 'style.css' 'font-face.css' 'icon.png' 'preview.png' 'plugin.json' 'README*.md' 'fonts/*'
 
       - name: Get version
-        uses: flex-development/jq-action@main
+        uses: emptylight370/jq-action@v1
         id: version
         with:
           data: plugin.json
