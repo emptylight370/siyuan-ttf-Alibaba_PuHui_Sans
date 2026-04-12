@@ -4,6 +4,11 @@ lefthook = "latest"
 "npm:conventional-changelog-cli" = "latest"
 "prettier" = "latest"
 
+[prepare.lefthook]
+description = "Install lefthook hooks"
+run = "lefthook install"
+sources = ["lefthook.yml", ".lefthook", ".lefthook-local"]
+
 [tasks.changelog]
 description = "通过 conventional-changelog-cli 生成变更日志"
 run = [
