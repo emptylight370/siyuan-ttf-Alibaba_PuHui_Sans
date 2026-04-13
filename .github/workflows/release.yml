@@ -38,7 +38,7 @@ jobs:
 
       - name: Generate release description
         run: |
-          conventional-changelog -i release.md -s -n conventional-changelog.config.json -k plugin.json -c plugin.json
+          conventional-changelog -i release.md -s -n changelog.json -k plugin.json -c plugin.json
           prettier -w release.md
 
       - name: Release

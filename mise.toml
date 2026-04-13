@@ -1,7 +1,7 @@
 [tools]
 bun = "latest"
 lefthook = "latest"
-"npm:conventional-changelog-cli" = "latest"
+"npm:conventional-changelog" = "latest"
 "prettier" = "latest"
 
 [prepare.lefthook]
@@ -10,9 +10,9 @@ run = "lefthook install"
 sources = ["lefthook.yml", ".lefthook", ".lefthook-local"]
 
 [tasks.changelog]
-description = "通过 conventional-changelog-cli 生成变更日志"
+description = "通过 conventional-changelog 生成变更日志"
 run = [
-  "conventional-changelog -i changelog.md -s -n conventional-changelog.config.json -k plugin.json -c plugin.json",
+  "conventional-changelog -i changelog.md -s -n changelog.json -k plugin.json -c plugin.json",
   "prettier -w changelog.md",
   "git add changelog.md",
 ]
