@@ -4,7 +4,7 @@ lefthook = "latest"
 "npm:conventional-changelog" = "latest"
 "prettier" = "latest"
 
-[prepare.lefthook]
+[deps.lefthook]
 description = "Install lefthook hooks"
 run = "lefthook install"
 sources = ["lefthook.yml", ".lefthook", ".lefthook-local"]
