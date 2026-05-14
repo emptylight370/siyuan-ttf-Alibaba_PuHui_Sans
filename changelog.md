@@ -101,4 +101,4 @@
 
 - 补全字体样式适配范围 ([b2ee666](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/b2ee66640f716505f26753894a42b5dbd811fec6))
 
-## 0.0.2 (2024-10-01)
+## [0.0.2](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/compare/4406254caa8458c5253f9a782bb9de1cac8f407d...0.0.2) (2024-10-01)
