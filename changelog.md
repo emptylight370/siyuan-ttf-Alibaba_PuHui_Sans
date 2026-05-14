@@ -8,12 +8,13 @@
 
 - 迁移到mise进行管理 ([f28f640](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/f28f640b4455282b92b4b48131e1e5e9421c7cb2))
 - 添加lefthook ([9876d3e](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/9876d3ed35981e0f0b9be90220f2aeb08f4b8956))
+- **(actions)** 更新actions工作流 ([13b487e](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/13b487eba36fcb28e470328c272524609b79d8f4))
 - 优化构建步骤 ([587fda9](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/587fda9bebbb2389f4bf639bac35eac64ea956fe))
-- **actions:** 更新actions工作流 ([13b487e](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/13b487eba36fcb28e470328c272524609b79d8f4))
-- **lefthook:** 并行执行检查缩短处理时间 ([dafac26](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/dafac26ad6871916be7b25b00ffa5eadf26b57cd))
-- **lefthook:** 修改触发条件 ([248ba79](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/248ba79c268de0a19042aa24b70e69d5996792ec))
-- **Lefthook:** 在检查commit message时不区分大小写 ([d4722df](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/d4722dfdc6efd3de4bd7e2378836101d650288e6))
-- **lefthook:** 重置格式化文件的逻辑 ([f40b646](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/f40b646f80ed044b39c969a70a92ad5653a04b8e))
+- **(Lefthook)** 在检查commit message时不区分大小写 ([d4722df](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/d4722dfdc6efd3de4bd7e2378836101d650288e6))
+- **(lefthook)** 重置格式化文件的逻辑 ([f40b646](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/f40b646f80ed044b39c969a70a92ad5653a04b8e))
+- **(lefthook)** 并行执行检查缩短处理时间 ([dafac26](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/dafac26ad6871916be7b25b00ffa5eadf26b57cd))
+- **(lefthook)** 修改触发条件 ([248ba79](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/248ba79c268de0a19042aa24b70e69d5996792ec))
+- 修复mise工具调用 ([fbd812f](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/fbd812faf89e82e050f1817735b9370618f5a255))
 
 ## [0.7.0](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/compare/0.6.3...0.7.0) (2025-11-14)
 
@@ -48,23 +49,17 @@
 
 ### ⏪ Reverts | 回退
 
-- **[skip ci]:** 取消发布版本，这个版本是误操作 ([d067bb8](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/d067bb89f2469b67078805afb15401432ca15ab4))
-
-### #️⃣ Version Update | 版本发布
-
-- **version:** Release 0.6.2 ([de166e5](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/de166e51f58907f9c2e474d707a6a4d651017578))
+- **([skip ci])** 取消发布版本，这个版本是误操作 ([d067bb8](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/d067bb89f2469b67078805afb15401432ca15ab4))
 
 ### 🛠️ Build system | 构建系统
 
 - 修改提交日志格式定义文件 ([cbc590e](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/cbc590ec1662810a0f3557615bca89a55b995e93))
 
-## [0.6.1](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/compare/0.6.0...0.6.1) (2025-10-30)
-
 ## [0.6.0](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/compare/0.5.0...0.6.0) (2025-10-30)
 
 ### ✨ Features | 功能
 
-- **[skip ci]:** 添加字段，确认在发布模式中启用 ([a00e388](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/a00e38853c2ffe0e7be3084f638b73a384485b37))
+- **([skip ci])** 添加字段，确认在发布模式中启用 ([a00e388](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/a00e38853c2ffe0e7be3084f638b73a384485b37))
 - 跟进模板的一些变动 ([e6e2a44](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/e6e2a4424dbfad6cfe279498fc72dd9e1c67cf9f))
 
 ### 🐛 Bug Fixes | 问题修复
@@ -73,24 +68,32 @@
 
 ### ⚡ Performance | 性能优化
 
-- 优化代码，更新一下 fontface ([accf04f](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/accf04febad4fb17834dbc30cc4ce71215cf0310))
+- 优化代码，更新一下fontface ([accf04f](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/accf04febad4fb17834dbc30cc4ce71215cf0310))
+
+### 🛠️ Build system | 构建系统
+
+- **([skip ci])** 修改打包工作流，为晚点的更新做准备 ([11b907c](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/11b907c9a0381470d3d81877333e5d01e6dd39c5))
 
 ## [0.5.0](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/compare/0.4.0...0.5.0) (2025-08-20)
 
 ### 🐛 Bug Fixes | 问题修复
 
-- 修复思源 3.1.25 版本开始，导出图片没有文字问题 ([e1edcf8](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/e1edcf8227e2dd856129b02ba596ce6d4364fb85))
+- 修复思源3.1.25版本开始，导出图片没有文字问题 ([e1edcf8](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/e1edcf8227e2dd856129b02ba596ce6d4364fb85))
 - 修复一处笔误 ([d3ce227](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/d3ce22778e758615b378108ddc12c2fb668a6d37))
 
 ### 📄 Documentation | 文档
 
 - 居然这么大了我都不知道 ([e43f872](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/e43f87230038bb42a4ea171e8b5ce811cc57952f))
 
+### 🛠️ Build system | 构建系统
+
+- 换用现成jq动作，并且不需要再手动判断跳过ci ([ed18edc](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/ed18edcbbc6ea8f4f5824defffcd524e30435f5e))
+
 ## [0.4.0](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/compare/0.3.1...0.4.0) (2025-02-17)
 
 ### ✨ Features | 功能
 
-- **[skip-ci]:** 添加字体，新增功能 ([01d38f3](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/01d38f34fc7b84fa781810ab2d08b321878d1e97))
+- **([skip-ci])** 添加字体，新增功能 ([01d38f3](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/01d38f34fc7b84fa781810ab2d08b321878d1e97))
 
 ## [0.3.1](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/compare/0.3.0...0.3.1) (2025-01-22)
 
@@ -98,40 +101,4 @@
 
 - 补全字体样式适配范围 ([b2ee666](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/b2ee66640f716505f26753894a42b5dbd811fec6))
 
-## [0.3.0](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/compare/0.2.1...0.3.0) (2025-01-02)
-
-### ✨ Features | 功能
-
-- 适配新版字体族形式([c68b5ec](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/c68b5ec287cb1c2eb8a249c0688dd0ad51dc3739))
-
-## [0.2.1](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/compare/0.2.0...0.2.1) (2024-11-19)
-
-## [0.2.0](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/compare/0.1.1...0.2.0) (2024-11-08)
-
-### ✨ Features | 功能
-
-- Remove unused font, add code block font([9b35e14](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/9b35e14e2f59ffa190c01aabc01abc88553c90ac))
-
-## [0.1.1](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/compare/0.1.0...0.1.1) (2024-10-01)
-
-### 🐛 Bug Fixes | 问题修复
-
-- stable release([1c1e385](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/1c1e385d46930f5ae96268a7f0515ebc4566fc59))
-
-## [0.1.0](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/compare/0.0.2...0.1.0) (2024-10-01)
-
-### 🐛 Bug Fixes | 问题修复
-
-- fix load error bug([70a63a6](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/70a63a6d24a6a43c3363c78f92064a230c52dbc9))
-
 ## 0.0.2 (2024-10-01)
-
-### ✨ Features | 功能
-
-- 重写打包发布逻辑([2380532](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/23805321e6c728ff7667d5c6e8c23cd4f57b8a8a))
-- Update 0.0.1 with bugs([5512923](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/551292327da4c5c706e8375f6f7d917601d60890))
-
-### 🐛 Bug Fixes | 问题修复
-
-- action bug fix?([c18a093](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/c18a093855172e596c8ab5c24da91a4cc4cd2c8e))
-- fix action bugs([a81e72e](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/a81e72e85651bd641e081a36cf4c477337b3ab0e))

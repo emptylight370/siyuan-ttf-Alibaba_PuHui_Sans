@@ -38,7 +38,7 @@ jobs:
 
       - name: Generate release description
         run: |
-          conventional-changelog -i release.md -s -n changelog.json -k plugin.json -c plugin.json
+          git cliff -u -o release.md -t ${{ steps.version.outputs.result }}
           prettier -w release.md
 
       - name: Release

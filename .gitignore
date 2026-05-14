@@ -27,5 +27,4 @@
 
 mise.local.toml
 mise.local.lock
-.mise/deps-state.toml
 .lefthook-local
