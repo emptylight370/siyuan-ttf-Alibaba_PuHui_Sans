@@ -9,13 +9,5 @@ description = "Install lefthook hooks"
 run = "lefthook install"
 sources = ["lefthook.yml", ".lefthook", ".lefthook-local"]
 
-[tasks.changelog]
-description = "通过 conventional-changelog 生成变更日志"
-run = [
-  "conventional-changelog -i changelog.md -s -n changelog.json -k plugin.json -c plugin.json",
-  "prettier -w changelog.md",
-  "git add changelog.md",
-]
-
 [settings]
 npm.package_manager = "bun"
