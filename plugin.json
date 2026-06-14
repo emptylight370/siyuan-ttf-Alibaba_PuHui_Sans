@@ -6,18 +6,18 @@
   "backends": ["all"],
   "frontends": ["all"],
   "disabledInPublish": false,
-  "minAppVersion": "3.2.0",
+  "minAppVersion": "3.7.0",
   "displayName": {
     "default": "Alibaba PuHui Sans font",
-    "zh_CN": "阿里巴巴普惠体"
+    "zh-CN": "阿里巴巴普惠体"
   },
   "description": {
     "default": "Use Alibaba PuHui Sans as layout font",
-    "zh_CN": "使用阿里巴巴普惠体作为界面字体"
+    "zh-CN": "使用阿里巴巴普惠体作为界面字体"
   },
   "readme": {
     "default": "README.md",
-    "zh_CN": "README_zh_CN.md"
+    "zh-CN": "README_zh-CN.md"
   },
   "funding": {
     "openCollective": "",
