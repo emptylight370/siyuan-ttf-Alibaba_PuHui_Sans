@@ -156,5 +156,5 @@ url = "https://github.com/evilmartians/lefthook/releases/download/v2.1.9/lefthoo
 provenance = "github-attestations"
 
 [[tools.prettier]]
-version = "3.8.4"
+version = "3.9.1"
 backend = "npm:prettier"
