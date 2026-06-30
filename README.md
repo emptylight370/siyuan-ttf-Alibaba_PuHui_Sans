@@ -6,10 +6,11 @@ The font files comes from: [Alibaba PuHui Sans(阿里巴巴普惠体)](https://w
 
 This plugin may not be compatible with other fonts or Emoji plugins in the bazaar, please disable other fonts or Emoji plugins when using this plugin.
 
-Since SiYuan note version 3.1.25, there's a problem makes texts can't load when exporting image. And it is fixed in unknown version. If you're using an old version of SiYuan, and can't load text when exporting image, please upgrade SiYuan/downgrade plugin, and let me know what version of SiYuan you are using.
+Currently only supports SiYuan version 3.7.0 and above.
 
 ## [ChangeLog](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/blob/main/changelog.md)
 
+- 2026-06-30 Adapt to SiYuan 3.7.0
 - 2026-02-23 Update sponsorship link
 - 2025-11-14 Add latin sans, edit fallback font
 - 2025-11-14 Compress image size

@@ -1,3 +1,21 @@
+## [0.8.0](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/compare/0.7.1...0.8.0) (2026-06-30)
+
+### 🔨 Refactor | 重构
+
+- 适配BCP 47规范[skip ci] ([7e79a4f](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/7e79a4f6307397a890f667caa672cf4c013290fc))
+- 适配RFC 5646规范 ([2fcb188](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/2fcb1882795b250bbfee73350da32e0a1fc9471b))
+
+### 🛠️ Build system | 构建系统
+
+- **(actions)** 获取提交历史以生成变更 ([b4eceae](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/b4eceaed8e795f5f58929e1fb067a79501ebc89f))
+- 更换获取版本号的工作流 ([7a12c89](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/7a12c894b500673c378c34fd9ebd771c1096ab33))
+- 更新工作流文件 ([34b51f0](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/34b51f07578a0bd3ebfb62aa02e4f5fcf3f138a0))
+- 迁移到conventional-changelog ([ea0133a](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/ea0133a1f7780998cd06b46e07483218461a005e))
+- 切换到git-cliff ([e78f6c9](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/e78f6c99d8371bc890d3ad8439acc904e63bd503))
+- 移除未使用的任务 ([ffe5b58](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/ffe5b586b8a91a06e960d160e2347ceb7f1d67db))
+- 修正提取版本号脚本 ([bc46904](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/bc4690468c8a8304b865089e684392675fc81101))
+- **(changelog)** 生成首个版本的链接 ([bd275ab](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/bd275ab776f1db7c19f715dbdd3d50d392616e92))
+
 ## [0.7.1](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/compare/0.7.0...0.7.1) (2026-02-23)
 
 ### ✨ Features | 功能
