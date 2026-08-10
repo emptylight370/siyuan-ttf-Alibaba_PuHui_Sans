@@ -167,5 +167,5 @@ url_api = "https://api.github.com/repos/evilmartians/lefthook/releases/assets/47
 provenance = "github-attestations"
 
 [[tools.prettier]]
-version = "3.9.5"
+version = "3.9.6"
 backend = "npm:prettier"
