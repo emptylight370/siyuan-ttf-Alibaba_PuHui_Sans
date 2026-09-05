@@ -10,6 +10,7 @@ Currently only supports SiYuan version 3.7.0 and above.
 
 ## [ChangeLog](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/blob/main/changelog.md)
 
+- 2026-09-XX Adapt to SiYuan 3.8.2、3.8.3
 - 2026-06-30 Adapt to SiYuan 3.7.0
 - 2026-02-23 Update sponsorship link
 - 2025-11-14 Add latin sans, edit fallback font
