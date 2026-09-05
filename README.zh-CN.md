@@ -6,7 +6,9 @@
 
 本插件可能与集市中的其他字体或 Emoji 插件不兼容，使用本插件时请禁用其他字体或 Emoji 插件。
 
-目前仅支持思源 3.7.0 及以上版本。
+> [!NOTE]
+> 本插件修改字体范围：全局。修改变量：`--b3-font-family`。
+> 与设置中编辑器字体兼容，与修改其余变量插件/代码片段兼容。
 
 ## [更新日志](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/blob/main/changelog.md)
 

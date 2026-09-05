@@ -6,7 +6,9 @@ The font files comes from: [Alibaba PuHui Sans(阿里巴巴普惠体)](https://w
 
 This plugin may not be compatible with other fonts or Emoji plugins in the bazaar, please disable other fonts or Emoji plugins when using this plugin.
 
-Currently only supports SiYuan version 3.7.0 and above.
+> [!NOTE]
+> This plugin modifies the font range: global. Modifies the variable: `--b3-font-family`.
+> Compatible with editor font in settings, compatible with other plugins/code snippets that edit other variables.
 
 ## [ChangeLog](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/blob/main/changelog.md)
 
