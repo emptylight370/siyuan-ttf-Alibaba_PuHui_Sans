@@ -7,8 +7,9 @@ The font files comes from: [Alibaba PuHui Sans(阿里巴巴普惠体)](https://w
 This plugin may not be compatible with other fonts or Emoji plugins in the bazaar, please disable other fonts or Emoji plugins when using this plugin.
 
 > [!NOTE]
-> This plugin modifies the font range: global. Modifies the variable: `--b3-font-family`.
+> This plugin modifies the font range: global. Modifies the variable: `--b3-font-family-default`.
 > Compatible with editor font in settings, compatible with other plugins/code snippets that edit other variables.
+> Changing the global font in settings will override the plugin's effect. Since SiYuan has added its own related settings, the plugin may not be maintained in the future. It is recommended to change the global font through the official method.
 
 ## [ChangeLog](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/blob/main/changelog.md)
 

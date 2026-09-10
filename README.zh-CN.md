@@ -7,8 +7,9 @@
 本插件可能与集市中的其他字体或 Emoji 插件不兼容，使用本插件时请禁用其他字体或 Emoji 插件。
 
 > [!NOTE]
-> 本插件修改字体范围：全局。修改变量：`--b3-font-family`。
+> 本插件修改字体范围：全局。修改变量：`--b3-font-family-default`。
 > 与设置中编辑器字体兼容，与修改其余变量插件/代码片段兼容。
+> 在设置中修改全局字体会覆盖插件效果。因为思源自己添加了相关设置，后续插件可能不继续维护。推荐自行通过官方方式修改全局字体。
 
 ## [更新日志](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/blob/main/changelog.md)
 
