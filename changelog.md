@@ -1,14 +1,20 @@
+## [0.10.0](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/compare/0.9.0...0.10.0) (2026-09-24)
+
+### 🐛 Bug Fixes | 问题修复
+
+- 发布服务[skip ci] ([265d2a4](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/265d2a426038e203e869cec055e6ee0fcb8466a3))
+
 ## [0.9.0](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/compare/0.8.0...0.9.0) (2026-09-10)
 
 ### ✨ Features | 功能
 
 - 跟进最新font-family[skip ci]#3 ([8306279](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/83062795ca94e44e7691a32dace5a571209bdca7))
-- 适配3.8.3全局字体[skip ci] ([a71806f](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/a71806fdba52331a60ec6821314e39e8215a43e4))
+- 适配3.8.3全局字体[skip ci]#3 ([d0ad7fa](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/d0ad7fa5b7f1bc5f7171b93e8e11b9b8d2b7a182))
 
 ### 📄 Documentation | 文档
 
 - 增加兼容性说明 ([83427bd](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/83427bd1cd62382642bc00ceed55368a0d0a0c0d))
-- 更新文档 ([70360e2](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/70360e22b19716d5a93d519e0214ee64b2c9539a))
+- 更新文档 ([c13936e](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/c13936e954440d3d752fb81c066c4270c9ea1926))
 
 ### 🛠️ Build system | 构建系统
 
