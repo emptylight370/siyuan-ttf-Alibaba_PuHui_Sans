@@ -18,13 +18,13 @@ jobs:
 
     steps:
       # checkout
-      - uses: actions/checkout@v7
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           fetch-depth: 0
           fetch-tags: true
 
       - name: Setup mise
-        uses: jdx/mise-action@v4
+        uses: jdx/mise-action@94c60b39bc2d90ab2f9bab27f38d3cc4812c1834 # v5.1.0
 
       - name: Package
         run: zip -r package.zip . -i 'index.*' 'style.css' 'font-face.css' 'icon.png' 'preview.png' 'plugin.json' 'README*.md' 'fonts/*'
@@ -42,7 +42,7 @@ jobs:
           prettier -w release.md
 
       - name: Release
-        uses: softprops/action-gh-release@v3
+        uses: softprops/action-gh-release@efb35369e0ad2afab669f228072c1b0d510eae64 # v3.0.3
         with:
           files: package.zip
           name: Release ${{ steps.version.outputs.result }}
