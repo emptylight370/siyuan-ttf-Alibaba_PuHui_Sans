@@ -27,6 +27,6 @@
   },
   "keywords": ["中文字体", "English Font", "Japanese Font"],
   "publish": {
-    "resources": ["fonts/", "style.css"]
+    "resources": ["fonts/"]
   }
 }

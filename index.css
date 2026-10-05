@@ -1,0 +1,104 @@
+/* 样式随包通过 /api/petal/loadPetals 返回，由前端 insertPluginCSS 插入为 pluginsStyle 元素，
+   不受代码片段加载清理 snippetCSS* 样式的影响；导出 PDF/HTML 时也会经 getPluginStyle 一并带上 */
+
+/* 简体中文 */
+@font-face {
+    font-family: 'AlibabaPuHuiTiSC';
+    font-weight: 400;
+    src: url('../plugins/siyuan-ttf-Alibaba_PuHui_Sans/fonts/AlibabaPuHuiTi-3-55-Regular.woff') format('woff');
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'AlibabaPuHuiTiSC';
+    font-weight: 700;
+    src: url('../plugins/siyuan-ttf-Alibaba_PuHui_Sans/fonts/AlibabaPuHuiTi-3-85-Bold.woff') format('woff');
+    font-style: normal;
+    font-display: swap;
+}
+
+/* 繁体中文 */
+@font-face {
+    font-family: 'AlibabaPuHuiTiTC';
+    font-weight: 400;
+    src: url('../plugins/siyuan-ttf-Alibaba_PuHui_Sans/fonts/AlibabaSansTC-55.woff') format('woff');
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'AlibabaPuHuiTiTC';
+    font-weight: 700;
+    src: url('../plugins/siyuan-ttf-Alibaba_PuHui_Sans/fonts/AlibabaSansTC-75.woff') format('woff');
+    font-style: normal;
+    font-display: swap;
+}
+
+/* 日语 */
+@font-face {
+    font-family: 'AlibabaPuHuiTiJP';
+    font-weight: 400;
+    src: url('../plugins/siyuan-ttf-Alibaba_PuHui_Sans/fonts/AlibabaSansJP-Regular.woff') format('woff');
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'AlibabaPuHuiTiJP';
+    font-weight: 700;
+    src: url('../plugins/siyuan-ttf-Alibaba_PuHui_Sans/fonts/AlibabaSansJP-Bold.woff') format('woff');
+    font-style: normal;
+    font-display: swap;
+}
+
+/* 拉丁文 */
+@font-face {
+    font-family: 'AlibabaSans';
+    font-weight: 400;
+    src: url('../plugins/siyuan-ttf-Alibaba_PuHui_Sans/fonts/AlibabaSans-Regular.woff') format('woff');
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'AlibabaSans';
+    font-weight: 700;
+    src: url('../plugins/siyuan-ttf-Alibaba_PuHui_Sans/fonts/AlibabaSans-Bold.woff') format('woff');
+    font-style: normal;
+    font-display: swap;
+}
+
+/* 拉丁文斜体 */
+@font-face {
+    font-family: 'AlibabaSans';
+    font-weight: 400;
+    src: url('../plugins/siyuan-ttf-Alibaba_PuHui_Sans/fonts/AlibabaSans-MediumItalic.woff') format('woff');
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'AlibabaSans';
+    font-weight: 700;
+    src: url('../plugins/siyuan-ttf-Alibaba_PuHui_Sans/fonts/AlibabaSans-BoldItalic.woff') format('woff');
+    font-style: italic;
+    font-display: swap;
+}
+
+/* 2026/09/10 跟进官方自带 --b3-font-family-default 变量 */
+:root {
+    --b3-font-family-default: var(--b3-font-family-emoji-reset), 'AlibabaSans', BlinkMacSystemFont, Helvetica, 'Luxi Sans', 'DejaVu Sans', arial, sans-serif, emojis !important;
+}
+
+:root:lang(zh-CN) {
+    --b3-font-family-default: var(--b3-font-family-emoji-reset), 'AlibabaPuHuiTiSC', 'AlibabaSans', BlinkMacSystemFont, Helvetica, 'PingFang SC', 'Luxi Sans', 'DejaVu Sans', arial, 'Microsoft Yahei', 'Hiragino Sans GB', 'Source Han Sans SC', sans-serif, emojis !important;
+}
+
+:root:lang(zh-TW) {
+    --b3-font-family-default: var(--b3-font-family-emoji-reset), 'AlibabaPuHuiTiTC', 'AlibabaSans', BlinkMacSystemFont, Helvetica, 'PingFang TC', 'Luxi Sans', 'DejaVu Sans', arial, 'Microsoft JhengHei', 'Hiragino Sans TC', 'Source Han Sans TC', sans-serif, emojis !important;
+}
+
+:root:lang(ja) {
+    --b3-font-family-default: var(--b3-font-family-emoji-reset), 'AlibabaPuHuiTiJP', 'AlibabaSans', BlinkMacSystemFont, Helvetica, 'Luxi Sans', 'DejaVu Sans', 'Yu Gothic UI', arial, sans-serif, emojis !important;
+}
