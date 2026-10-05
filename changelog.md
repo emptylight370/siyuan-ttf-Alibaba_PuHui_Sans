@@ -1,3 +1,9 @@
+## [0.10.2](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/compare/0.10.1...0.10.2) (2026-10-05)
+
+### 🐛 Bug Fixes | 问题修复
+
+- 修复插件样式加载问题 ([7f5b788](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/7f5b78821eb1e1c8185c74eec350d5c8d7bc626b))
+
 ## [0.10.1](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/compare/0.10.0...0.10.1) (2026-10-05)
 
 ### 🐛 Bug Fixes | 问题修复
