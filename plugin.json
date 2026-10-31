@@ -6,7 +6,8 @@
   "backends": ["all"],
   "frontends": ["all"],
   "disabledInPublish": false,
-  "minAppVersion": "3.8.6-alpha.2",
+  "minAppVersion": "3.8.7",
+  "settingsWindow": true,
   "displayName": {
     "default": "Alibaba PuHui Sans font",
     "zh-CN": "阿里巴巴普惠体"

@@ -16,17 +16,11 @@ This plugin may not be compatible with other fonts or Emoji plugins in the bazaa
 
 ## [ChangeLog](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/blob/main/changelog.md)
 
+- 2026-10-31 Support load fonts in independent settings window(3.8.7)
 - 2026-09-24 Fix issue that publish service loaded error
 - 2026-09-10 Adapt to SiYuan 3.8.2、3.8.3
 - 2026-06-30 Adapt to SiYuan 3.7.0
 - 2026-02-23 Update sponsorship link
-- 2025-11-14 Add latin sans, edit fallback font
-- 2025-11-14 Compress image size
-- 2025-11-02 Change load method
-- 2025-10-30 Correct a typing error
-- 2025-08-20
-  - Fix issue that text disappear in exported image since SiYuan 3.1.25
-  - Remove some font file, unify the font size
 
 ## Acknowledgments
 
