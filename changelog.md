@@ -1,3 +1,13 @@
+## [0.10.3](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/compare/0.10.2...0.10.3) (2026-10-31)
+
+### ✨ Features | 功能
+
+- 支持在独立设置窗口中加载字体 ([15c19d9](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/15c19d98d4844d2fd276e061790dbaf3c30b57fe))
+
+### 🛠️ Build system | 构建系统
+
+- 版本存在时跳过构建 ([926bd4e](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/commit/926bd4ef0dff8e0e77ba536421ef379afa8cae26))
+
 ## [0.10.2](https://github.com/emptylight370/siyuan-ttf-Alibaba_PuHui_Sans/compare/0.10.1...0.10.2) (2026-10-05)
 
 ### 🐛 Bug Fixes | 问题修复
