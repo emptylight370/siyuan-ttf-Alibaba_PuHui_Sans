@@ -23,12 +23,6 @@ jobs:
           fetch-depth: 0
           fetch-tags: true
 
-      - name: Setup mise
-        uses: jdx/mise-action@6be3c7ed4c21d4f76b208d351d95aac273ebb76d # v5.2.4
-
-      - name: Package
-        run: zip -r package.zip . -i 'index.*' 'style.css' 'font-face.css' 'icon.png' 'preview.png' 'plugin.json' 'README*.md' 'fonts/*'
-
       - name: Get version
         uses: emptylight370/jq-action@v1
         id: version
@@ -36,12 +30,28 @@ jobs:
           data: plugin.json
           filter: .version
 
+      - name: Skip if release exists
+        uses: mukunku/release-exists-action@12f0514a28ffd4801e771c59e7b9c4f9a60428f2 # v1.1.0
+        id: compare
+        with:
+          tag: ${{ steps.version.outputs.result }}
+
+      - name: Setup mise
+        if: steps.compare.outputs.exists != 'true'
+        uses: jdx/mise-action@6be3c7ed4c21d4f76b208d351d95aac273ebb76d # v5.2.4
+
+      - name: Package
+        if: steps.compare.outputs.exists != 'true'
+        run: zip -r package.zip . -i 'index.*' 'style.css' 'font-face.css' 'icon.png' 'preview.png' 'plugin.json' 'README*.md' 'fonts/*'
+
       - name: Generate release description
+        if: steps.compare.outputs.exists != 'true'
         run: |
           git cliff -u -o release.md -t ${{ steps.version.outputs.result }}
           prettier -w release.md
 
       - name: Release
+        if: steps.compare.outputs.exists != 'true'
         uses: softprops/action-gh-release@efb35369e0ad2afab669f228072c1b0d510eae64 # v3.0.3
         with:
           files: package.zip
